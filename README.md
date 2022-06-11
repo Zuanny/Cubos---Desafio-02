@@ -8,6 +8,7 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API com t
  - Node.js
  - Express
  - date-fsn
+ - Nodemon
     
 
 ### Endpoint's
