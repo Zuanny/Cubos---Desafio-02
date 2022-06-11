@@ -5,5 +5,9 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API com t
 ### Objetivo
 
 ### Tecnologias Utilizadas
+ - Node.js
+ - Express
+ - date-fsn
+    
 
 ### Endpoint's
