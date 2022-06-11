@@ -11,7 +11,7 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em No
 
 ### ROTAS
 
- - GET Listar Contas (http://localhost:3000/contas?senha_banco=Cubos123Bank)
+ - GET Listar Contas (http://localhost:3000/contas?senha_banco="SenhaDefinidaNoArquivo")
    - Precisa da Senha de administrador como Query = "senha_banco ="
    - Retorna: A lista de todas as contas.
 
@@ -27,11 +27,11 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em No
           
    - Sem retorno algum, Cria a conta no banco.
  
- - PUT Atualizar Conta (http://localhost:3000/contas/1/usuario)
+ - PUT Atualizar Conta (http://localhost:3000/contas/:id/usuario)
    - Precisa ser passado um id da conta válido, Conteudo do body referente a atualização
    - Não possui retorno
 
- - DELETE Deletar Conta (http://localhost:3000/contas/2)
+ - DELETE Deletar Conta (http://localhost:3000/contas/:id)
    - Deleta usuario com a ID passada como params
    - Não possui retorno.
 
@@ -52,11 +52,11 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em No
    - Necessário Conta de origem possuir saldo maior ou igual a transferencia.
    - Não possui retorno.
 
- - GET Demonstrar Saldo (http://localhost:3000/contas/saldo?numero_conta=2&senha=12345)
+ - GET Demonstrar Saldo (http://localhost:3000/contas/saldo?numero_conta=:id&senha=:senha)
    - Passar numero da conta e senha na query.
    - Retorna o saldo da conta.
 
- - GET Demonstrar Extrato (http://localhost:3000/contas/extrato?numero_conta=2&senha=12345)
+ - GET Demonstrar Extrato (http://localhost:3000/contas/extrato?numero_conta=:id&senha=:senha)
    - Passar numero da conta e senha na query.
    - Retorna Detalhadament um objeto com essas arrays depositos , saques, transferencia recebida e transferencia executada.
  
