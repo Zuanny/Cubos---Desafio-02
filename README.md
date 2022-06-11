@@ -1,5 +1,6 @@
 # Cubos - Desafio-02
-Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em Node.js com transações e persistência de Dados, utilizando a bibliote Fs para manipulação de arquivos js
+
+Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em Node.js com transações e persistência de Dados, utilizando a biblioteca FS para manipulação de arquivos js
 
 ### Tecnologias Utilizadas
  - Node.js
