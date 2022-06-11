@@ -9,7 +9,8 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em No
  - Nodemon
     
 
-### Endpoint's
+### ROTAS
+
  - GET Listar Contas (http://localhost:3000/contas?senha_banco=Cubos123Bank)
    - Precisa da Senha de administrador como Query = "senha_banco ="
    - Retorna: A lista de todas as contas.
