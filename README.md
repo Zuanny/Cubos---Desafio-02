@@ -5,7 +5,7 @@ Desafio feito pela Cubos Academy - Com o objetivo de criar uma RESTful API em No
 ### Tecnologias Utilizadas
  - Node.js
  - Express
- - date-fsn
+ - Date-FNS
  - Nodemon
     
 
